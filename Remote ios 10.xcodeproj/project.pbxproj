@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		90D4E9E31D9B63AF00FEB664 /* NotificationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D4E9E21D9B63AF00FEB664 /* NotificationService.m */; };
+		90D4E9E71D9B63AF00FEB664 /* mytest.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 90D4E9DF1D9B63AF00FEB664 /* mytest.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		90F400FF1D9378360087588F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F400FE1D9378360087588F /* main.m */; };
 		90F401021D9378360087588F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F401011D9378360087588F /* AppDelegate.m */; };
 		90F401051D9378360087588F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F401041D9378360087588F /* ViewController.m */; };
@@ -15,9 +17,18 @@
 		90F4010D1D9378360087588F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90F4010B1D9378360087588F /* LaunchScreen.storyboard */; };
 		90F401181D9378360087588F /* Remote_ios_10Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F401171D9378360087588F /* Remote_ios_10Tests.m */; };
 		90F401231D9378360087588F /* Remote_ios_10UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F401221D9378360087588F /* Remote_ios_10UITests.m */; };
+		90F401321D93A4B30087588F /* QLScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F401311D93A4B30087588F /* QLScrollView.m */; };
+		90F401371D93B4700087588F /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 90F401361D93B4700087588F /* 2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		90D4E9E51D9B63AF00FEB664 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90F400F21D9378360087588F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90D4E9DE1D9B63AF00FEB664;
+			remoteInfo = mytest;
+		};
 		90F401141D9378360087588F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 90F400F21D9378360087588F /* Project object */;
@@ -34,7 +45,25 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		90D4E9EB1D9B63AF00FEB664 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				90D4E9E71D9B63AF00FEB664 /* mytest.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		90D4E9DF1D9B63AF00FEB664 /* mytest.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = mytest.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		90D4E9E11D9B63AF00FEB664 /* NotificationService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationService.h; sourceTree = "<group>"; };
+		90D4E9E21D9B63AF00FEB664 /* NotificationService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationService.m; sourceTree = "<group>"; };
+		90D4E9E41D9B63AF00FEB664 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		90F400FA1D9378360087588F /* Remote ios 10.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Remote ios 10.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90F400FE1D9378360087588F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		90F401001D9378360087588F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,9 +80,19 @@
 		90F4011E1D9378360087588F /* Remote ios 10UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Remote ios 10UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90F401221D9378360087588F /* Remote_ios_10UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Remote_ios_10UITests.m; sourceTree = "<group>"; };
 		90F401241D9378360087588F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90F401301D93A4B30087588F /* QLScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QLScrollView.h; sourceTree = "<group>"; };
+		90F401311D93A4B30087588F /* QLScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QLScrollView.m; sourceTree = "<group>"; };
+		90F401361D93B4700087588F /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		90D4E9DC1D9B63AF00FEB664 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		90F400F71D9378360087588F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -78,12 +117,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		90D4E9E01D9B63AF00FEB664 /* mytest */ = {
+			isa = PBXGroup;
+			children = (
+				90D4E9E11D9B63AF00FEB664 /* NotificationService.h */,
+				90D4E9E21D9B63AF00FEB664 /* NotificationService.m */,
+				90D4E9E41D9B63AF00FEB664 /* Info.plist */,
+			);
+			path = mytest;
+			sourceTree = "<group>";
+		};
 		90F400F11D9378360087588F = {
 			isa = PBXGroup;
 			children = (
 				90F400FC1D9378360087588F /* Remote ios 10 */,
 				90F401161D9378360087588F /* Remote ios 10Tests */,
 				90F401211D9378360087588F /* Remote ios 10UITests */,
+				90D4E9E01D9B63AF00FEB664 /* mytest */,
 				90F400FB1D9378360087588F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,6 +144,7 @@
 				90F400FA1D9378360087588F /* Remote ios 10.app */,
 				90F401131D9378360087588F /* Remote ios 10Tests.xctest */,
 				90F4011E1D9378360087588F /* Remote ios 10UITests.xctest */,
+				90D4E9DF1D9B63AF00FEB664 /* mytest.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,7 +156,10 @@
 				90F401011D9378360087588F /* AppDelegate.m */,
 				90F401031D9378360087588F /* ViewController.h */,
 				90F401041D9378360087588F /* ViewController.m */,
+				90F401301D93A4B30087588F /* QLScrollView.h */,
+				90F401311D93A4B30087588F /* QLScrollView.m */,
 				90F401061D9378360087588F /* Main.storyboard */,
+				90F401361D93B4700087588F /* 2.png */,
 				90F401091D9378360087588F /* Assets.xcassets */,
 				90F4010B1D9378360087588F /* LaunchScreen.storyboard */,
 				90F4010E1D9378360087588F /* Info.plist */,
@@ -143,6 +197,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		90D4E9DE1D9B63AF00FEB664 /* mytest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90D4E9EA1D9B63AF00FEB664 /* Build configuration list for PBXNativeTarget "mytest" */;
+			buildPhases = (
+				90D4E9DB1D9B63AF00FEB664 /* Sources */,
+				90D4E9DC1D9B63AF00FEB664 /* Frameworks */,
+				90D4E9DD1D9B63AF00FEB664 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mytest;
+			productName = mytest;
+			productReference = 90D4E9DF1D9B63AF00FEB664 /* mytest.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		90F400F91D9378360087588F /* Remote ios 10 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 90F401271D9378360087588F /* Build configuration list for PBXNativeTarget "Remote ios 10" */;
@@ -150,10 +221,12 @@
 				90F400F61D9378360087588F /* Sources */,
 				90F400F71D9378360087588F /* Frameworks */,
 				90F400F81D9378360087588F /* Resources */,
+				90D4E9EB1D9B63AF00FEB664 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				90D4E9E61D9B63AF00FEB664 /* PBXTargetDependency */,
 			);
 			name = "Remote ios 10";
 			productName = "Remote ios 10";
@@ -205,6 +278,10 @@
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = SU;
 				TargetAttributes = {
+					90D4E9DE1D9B63AF00FEB664 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
 					90F400F91D9378360087588F = {
 						CreatedOnToolsVersion = 8.0;
 						ProvisioningStyle = Automatic;
@@ -237,17 +314,26 @@
 				90F400F91D9378360087588F /* Remote ios 10 */,
 				90F401121D9378360087588F /* Remote ios 10Tests */,
 				90F4011D1D9378360087588F /* Remote ios 10UITests */,
+				90D4E9DE1D9B63AF00FEB664 /* mytest */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		90D4E9DD1D9B63AF00FEB664 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		90F400F81D9378360087588F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				90F4010D1D9378360087588F /* LaunchScreen.storyboard in Resources */,
 				90F4010A1D9378360087588F /* Assets.xcassets in Resources */,
+				90F401371D93B4700087588F /* 2.png in Resources */,
 				90F401081D9378360087588F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,10 +355,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		90D4E9DB1D9B63AF00FEB664 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90D4E9E31D9B63AF00FEB664 /* NotificationService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		90F400F61D9378360087588F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90F401321D93A4B30087588F /* QLScrollView.m in Sources */,
 				90F401051D9378360087588F /* ViewController.m in Sources */,
 				90F401021D9378360087588F /* AppDelegate.m in Sources */,
 				90F400FF1D9378360087588F /* main.m in Sources */,
@@ -298,6 +393,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		90D4E9E61D9B63AF00FEB664 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90D4E9DE1D9B63AF00FEB664 /* mytest */;
+			targetProxy = 90D4E9E51D9B63AF00FEB664 /* PBXContainerItemProxy */;
+		};
 		90F401151D9378360087588F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 90F400F91D9378360087588F /* Remote ios 10 */;
@@ -330,6 +430,28 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		90D4E9E81D9B63AF00FEB664 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = mytest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TH.Remote-ios-10.mytest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		90D4E9E91D9B63AF00FEB664 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = mytest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TH.Remote-ios-10.mytest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		90F401251D9378360087588F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -491,6 +613,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		90D4E9EA1D9B63AF00FEB664 /* Build configuration list for PBXNativeTarget "mytest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90D4E9E81D9B63AF00FEB664 /* Debug */,
+				90D4E9E91D9B63AF00FEB664 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		90F400F51D9378360087588F /* Build configuration list for PBXProject "Remote ios 10" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -507,6 +637,7 @@
 				90F401291D9378360087588F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90F4012A1D9378360087588F /* Build configuration list for PBXNativeTarget "Remote ios 10Tests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +646,7 @@
 				90F4012C1D9378360087588F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90F4012D1D9378360087588F /* Build configuration list for PBXNativeTarget "Remote ios 10UITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +655,7 @@
 				90F4012F1D9378360087588F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
