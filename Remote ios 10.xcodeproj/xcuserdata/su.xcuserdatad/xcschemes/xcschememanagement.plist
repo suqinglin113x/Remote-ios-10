@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>CustomNotifiUI.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>Remote ios 10.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -17,6 +22,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>905329A31DC983190040D9DB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>90D4E9DE1D9B63AF00FEB664</key>
 		<dict>
 			<key>primary</key>

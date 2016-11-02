@@ -17,7 +17,6 @@
 		90F4010D1D9378360087588F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90F4010B1D9378360087588F /* LaunchScreen.storyboard */; };
 		90F401181D9378360087588F /* Remote_ios_10Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F401171D9378360087588F /* Remote_ios_10Tests.m */; };
 		90F401231D9378360087588F /* Remote_ios_10UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F401221D9378360087588F /* Remote_ios_10UITests.m */; };
-		90F401321D93A4B30087588F /* QLScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F401311D93A4B30087588F /* QLScrollView.m */; };
 		90F401371D93B4700087588F /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 90F401361D93B4700087588F /* 2.png */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +59,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		905329A61DC983190040D9DB /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		905329A81DC983190040D9DB /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
 		90D4E9DF1D9B63AF00FEB664 /* mytest.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = mytest.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		90D4E9E11D9B63AF00FEB664 /* NotificationService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationService.h; sourceTree = "<group>"; };
 		90D4E9E21D9B63AF00FEB664 /* NotificationService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationService.m; sourceTree = "<group>"; };
@@ -80,8 +81,6 @@
 		90F4011E1D9378360087588F /* Remote ios 10UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Remote ios 10UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90F401221D9378360087588F /* Remote_ios_10UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Remote_ios_10UITests.m; sourceTree = "<group>"; };
 		90F401241D9378360087588F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		90F401301D93A4B30087588F /* QLScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QLScrollView.h; sourceTree = "<group>"; };
-		90F401311D93A4B30087588F /* QLScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QLScrollView.m; sourceTree = "<group>"; };
 		90F401361D93B4700087588F /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -117,6 +116,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		905329A51DC983190040D9DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				905329A61DC983190040D9DB /* UserNotifications.framework */,
+				905329A81DC983190040D9DB /* UserNotificationsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		90D4E9E01D9B63AF00FEB664 /* mytest */ = {
 			isa = PBXGroup;
 			children = (
@@ -134,6 +142,7 @@
 				90F401161D9378360087588F /* Remote ios 10Tests */,
 				90F401211D9378360087588F /* Remote ios 10UITests */,
 				90D4E9E01D9B63AF00FEB664 /* mytest */,
+				905329A51DC983190040D9DB /* Frameworks */,
 				90F400FB1D9378360087588F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -156,8 +165,6 @@
 				90F401011D9378360087588F /* AppDelegate.m */,
 				90F401031D9378360087588F /* ViewController.h */,
 				90F401041D9378360087588F /* ViewController.m */,
-				90F401301D93A4B30087588F /* QLScrollView.h */,
-				90F401311D93A4B30087588F /* QLScrollView.m */,
 				90F401061D9378360087588F /* Main.storyboard */,
 				90F401361D93B4700087588F /* 2.png */,
 				90F401091D9378360087588F /* Assets.xcassets */,
@@ -367,7 +374,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90F401321D93A4B30087588F /* QLScrollView.m in Sources */,
 				90F401051D9378360087588F /* ViewController.m in Sources */,
 				90F401021D9378360087588F /* AppDelegate.m in Sources */,
 				90F400FF1D9378360087588F /* main.m in Sources */,
@@ -620,6 +626,7 @@
 				90D4E9E91D9B63AF00FEB664 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90F400F51D9378360087588F /* Build configuration list for PBXProject "Remote ios 10" */ = {
 			isa = XCConfigurationList;
